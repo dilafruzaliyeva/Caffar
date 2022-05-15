@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 900px;
+    background: #070A1B;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0 auto;
+    padding-top: 32px;
+}
+
+.fa-bars{
+    font-size: 28px;
+    color: white;
+}
+
+.iconca_item{
+    font-size: 24px;
+    color: white;
+}
+
+.iconca_item i{
+    padding: 0 0 0 30px;
+}
+
+.logo{
+    padding-left: 30px;
+}
+
+.photo_item{
+    width: 100%;
+    height: 800px;
+    border-radius: 400px 400px 0 0;
+    object-fit: cover;
+    margin-top: 32px;
+    position: absolute;
+}
+
+.header_about{
+   color: white;
+}
+
+.header_about h1{
+    position: absolute;
+    font-size: 72px;
+    font-weight: 700;
+    margin: 630px 455px 0;
+}
+
+.header_about p{
+    position: absolute;
+    margin: 720px 650px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.photo_mer{
+    position: absolute;
+    width: 24px;
+    height: 47px;
+}
+
+main{
+    background:#070A1B ;
+    max-width: 100%;
+}
+
+.grid_item{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 630px);
+    grid-template-rows: repeat(3, 800px);
+    padding: 150px 150px 0;
+    
+}
+
+.post-1{
+    grid-column:1/ 2;
+    grid-row: 1;
+    padding-left: 300px;
+}
+
+.post-2{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.post-3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.post-4{
+    grid-column: 1/2;
+    grid-row: 3;
+    padding-top: 80px;
+}
+
+.post-1 h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F402A2;
+    margin-bottom: 25px;
+}
+
+.post-2 h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #F402A2;
+    margin-bottom: 25px;
+}
+
+.text_a{
+    width: 900px;
+    height: 87px;
+   font-size: 24px;
+   font-weight: 400;
+   color: white;
+   text-align: start;
+   margin-bottom: 25px;
+}
+
+.main-photo{
+    width: 900px;
+    height: 500px;
+}
+
+.text_b{
+    font-size: 16px;
+    color: white;
+    text-align: start;
+    width: 570px;
+    height: 192px;
+    margin-bottom: 25px;
+}
+
+.text-2{
+    padding: 20px 0;
+}
+
+.post-btn{
+    font-weight: 700;
+    font-size: 18px;
+    color: #F402A2;
+    border: 1px solid #F402A2;
+    display: block;
+    width: 570px;
+    height: 50px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 14px;
+    margin-top: 25px;
+}
+
+.main-photo-3{
+    width: 569px;
+    height: 664px;
+    margin-bottom: 21px;
+}
+
+.text_c{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 569px;
+    height: 57px;
+}
+
+.post-btn-2{
+    display: block;
+    width: 1200px;
+    height: 50px;
+    border: 1px solid #F402A2;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 15px; 
+    color: #F402A2;
+}
+
+.post-btn-2 a{
+    text-decoration: none;
+    color: #F402A2;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.grid_about{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 510px);
+    margin: 150px auto 0px;
+    grid-gap: 30px;
+}
+
+.item_1{
+    grid-column: 1;
+    grid-row: 1/4;
+}
+
+.item_2{
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.item_3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item_4{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.item_1 h5{
+   color: #F402A2;
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 25px;
+}
+
+.item_1 p{
+    font-size: 16px;
+    color: white;
+    width: 255px;
+}
+
+.about_a{
+    padding: 25px 0;
+}
+
+.about_b{
+    padding:0 0 25px 0;
+}
+
+.item_3{
+    color: white;
+    font-size: 16px;
+    width: 255px;
+    height: 209px;
+}
+
+.album_item{
+   
+    display: flex;
+    justify-content: space-between;
+}
+
+.album_item img{
+    width: 350px;
+    height: 180px;
+}
+
+.arrow{
+    margin: 25px 645px;
+}
+
+.arrow img{
+    padding-left: 40px;
+}
+
+.text_content{
+    margin: 150px 410px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.text_content_a{
+    width: 255px;
+    height: 210px;
+}
+
+.content-a{
+    padding-bottom: 20px;
+}
+
+.text_content_b{
+    width: 255px;
+    height: 382px;
+}
+
+.content-b{
+    padding:20px 0 ;
+}
+
+.main_album{
+    max-width: 100%;
+}
+
+.footer{
+    background:#070A1B  ;
+    max-width: 100%;
+    height: 300px;
+    padding: 0 200px 30px;
+}
+
+.footer p{
+    font-size: 16px;
+    color: white;
+}
+
+.footer_item{
+    font-size: 24px;
+    color: white;
+}
+
+.footer_item i{
+    padding: 0 0 0 30px;
+}
